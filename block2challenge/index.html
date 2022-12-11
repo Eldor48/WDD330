@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your SuperHero</title>
+    <link rel = "stylesheet" href = "main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    
+    <div class = "main-wrapper">
+        <div class = "app">
+            <!-- app header -->
+            <div class = "app-header">
+                <h2 class = "app-header-title">Super<span>Hero.</span></h2>
+                <form class = "app-header-search">
+                    <input type = "text" class = "form-control" placeholder="Search your superhero here ..." name = "search">
+                    <button type = "submit" class = "search-btn">
+                        <i class = "fas fa-search"></i>
+                    </button>
+                    <div class = "search-list" id = "search-list">
+                        <!-- <div class = "search-list-item">
+                            <img src = "images/thumbnail-batman.jpg" alt = "">
+                            <p>Batman</p>
+                        </div> -->
+                    </div>
+                </form>
+            </div>
+            <!-- end of app header -->
+
+            <div class = "app-body">
+                <div class = "app-body-content">
+                    <!-- app body thumbnail -->
+                    <div class = "app-body-content-thumbnail">
+                        <img src = "images/791.jpg">
+                    </div>
+                    <!-- end of app body thumbnail -->
+                    
+                    <div class = "app-body-content-list">
+                        <div class = "name">Superman</div>
+
+                        <!-- tabs head -->
+                        <div class = "app-body-tabs-head">
+                            <button type = "button" class = "tab-head-single" data-id = "1">
+                                <span>powerstats</span>
+                            </button>
+                            <button type = "button" class = "tab-head-single" data-id = "2">
+                                <span>biography</span>
+                            </button>
+                            <button type = "button" class = "tab-head-single" data-id = "3">
+                                <span>appearance</span>
+                            </button>
+                            <button type = "button" class = "tab-head-single" data-id = "4">
+                                <span>connections</span>
+                            </button>
+                        </div>
+                        <!-- end of tabs head -->
+
+                        <!-- tabs body -->
+                        <div class = "app-body-tabs-body">
+                            <!-- powerstats tab -->
+                            <ul class = "tab-body-single powerstats">
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-brain"></i>
+                                        <span>intelligence</span>
+                                    </div>
+                                    <span>94</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-hand-fist"></i>
+                                        <span>strength</span>
+                                    </div>
+                                    <span>100</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-person-running"></i>
+                                        <span>speed</span>
+                                    </div>
+                                    <span>100</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class = "fa-solid fa-shield-halved"></i>
+                                        <span>durability</span>
+                                    </div>
+                                    <span>100</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-bolt-lightning"></i>
+                                        <span>power</span>
+                                    </div>
+                                    <span>100</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="fa-sharp fa-solid fa-hand-fist"></i>
+                                        <span>combat</span>
+                                    </div>
+                                    <span>85</span>
+                                </li>
+                            </ul>
+                            <!-- end of powerstats tab -->
+
+                            <!-- biography tab -->
+                            <ul class = "tab-body-single biography">
+                                <li>
+                                    <span>full name</span>
+                                    <span>Clark Kent</span>
+                                </li>
+                                <li>
+                                    <span>alert-egos</span>
+                                    <span>Superman Prime One-Million</span>
+                                </li>
+                                <li>
+                                    <span>aliases</span>
+                                    <span>Clark Joseph Kent,The Man of Steel,the Man of Tomorrow,the Last Son of Krypton,Big Blue,the Metropolis Marvel,the Action Ace</span>
+                                </li>
+                                <li>
+                                    <span>place-of-birth</span>
+                                    <span>Krypton</span>
+                                </li>
+                                <li>
+                                    <span>first-apperance</span>
+                                    <span>ACTION COMICS #1</span>
+                                </li>
+                                <li>
+                                    <span>publisher</span>
+                                    <span>Superman Prime One-Million</span>
+                                </li>
+                            </ul>
+                            <!-- end of biography tab -->
+
+                            <!-- appearance -->
+                            <ul class = "tab-body-single appearance">
+                                <li>
+                                    <span>
+                                        <i class="fa-solid fa-venus-mars"></i> gender
+                                    </span>
+                                    <span>Male</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="fa-solid fa-person"></i> race
+                                    </span>
+                                    <span>Kryptonian</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="fa-solid fa-ruler"></i> height
+                                    </span>
+                                    <span>6'3</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="fa-solid fa-weight-scale"></i> weight
+                                    </span>
+                                    <span>225 lb</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="fa-solid fa-eye"></i> eye-color
+                                    </span>
+                                    <span>Blue</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="fa-solid fa-person"></i> hair-color
+                                    </span>
+                                    <span>Black</span>
+                                </li>
+                            </ul>
+                            <!-- end of appearance -->
+
+                            <!-- connections -->
+                            <ul class = "tab-body-single connections">
+                                <li>
+                                    <span>group--affiliation</span>
+                                    <span>Justice League of America, The Legion of Super-Heroes
+                                        (pre-Crisis as Superboy); Justice Society of America (pre-Crisis Earth-2 version); All-Star Squadron (pre-Crisis Earth-2 version)</span>
+                                </li>
+                                <li>
+                                    <span>relatives</span>
+                                    <span>Lois Lane (wife), Jor-El (father, deceased), Lara (mother, deceased), Jonathan Kent (adoptive father), Martha Kent (adoptive
+                                        mother), Seyg-El (paternal grandfather, deceased), Zor-El (uncle,
+                                        deceased), Alura (aunt, deceased), Supergirl (Kara Zor-El, cousin),
+                                        Superboy (Kon-El/Conner Kent, partial clone)</span>
+                                </li>
+                            </ul>
+                            <!-- end of connections -->
+                        </div>
+                        <!-- end of tabs body -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src = "app.js"></script>
+</body>
+</html>

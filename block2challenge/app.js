@@ -96,42 +96,42 @@ const showSuperheroDetails = (data) => {
     document.querySelector('.powerstats').innerHTML = `
     <li>
         <div>
-            <i class = "fa-solid fa-shield-halved"></i>
+        <i class="fa-solid fa-brain"></i>
             <span>intelligence</span>
         </div>
         <span>${data[0].powerstats.intelligence}</span>
     </li>
     <li>
         <div>
-            <i class = "fa-solid fa-shield-halved"></i>
+        <i class="fa-solid fa-hand-fist"></i>
             <span>strength</span>
         </div>
         <span>${data[0].powerstats.strength}</span>
     </li>
     <li>
         <div>
-            <i class = "fa-solid fa-shield-halved"></i>
+        <i class="fa-solid fa-person-running"></i>
             <span>speed</span>
         </div>
         <span>${data[0].powerstats.speed}</span>
     </li>
     <li>
         <div>
-            <i class = "fa-solid fa-shield-halved"></i>
+        <i class = "fa-solid fa-shield-halved"></i>
             <span>durability</span>
         </div>
         <span>${data[0].powerstats.durability}</span>
     </li>
     <li>
         <div>
-            <i class = "fa-solid fa-shield-halved"></i>
+        <i class="fa-solid fa-bolt-lightning"></i>
             <span>power</span>
         </div>
         <span>${data[0].powerstats.power}</span>
     </li>
     <li>
         <div>
-            <i class = "fa-solid fa-shield-halved"></i>
+        <i class="fa-sharp fa-solid fa-hand-fist"></i>
             <span>combat</span>
         </div>
         <span>${data[0].powerstats.combat}</span>
@@ -168,37 +168,37 @@ const showSuperheroDetails = (data) => {
     document.querySelector('.appearance').innerHTML = `
     <li>
         <span>
-            <i class = "fas fa-star"></i> gender
+        <i class="fa-solid fa-venus-mars"></i> gender
         </span>
         <span>${data[0].appearance['gender']}</span>
     </li>
     <li>
         <span>
-            <i class = "fas fa-star"></i> race
+        <i class="fa-solid fa-weight-scale"></i> race
         </span>
         <span>${data[0].appearance['race']}</span>
     </li>
     <li>
         <span>
-            <i class = "fas fa-star"></i> height
+        <i class="fa-solid fa-ruler"></i> height
         </span>
         <span>${data[0].appearance['height'][0]}</span>
     </li>
     <li>
         <span>
-            <i class = "fas fa-star"></i> weight
+        <i class="fa-solid fa-weight-scale"></i>weight
         </span>
         <span>${data[0].appearance['weight'][0]}</span>
     </li>
     <li>
         <span>
-            <i class = "fas fa-star"></i> eye-color
+        <i class="fa-solid fa-eye"></i> eye-color
         </span>
         <span>${data[0].appearance['eye-color']}</span>
     </li>
     <li>
         <span>
-            <i class = "fas fa-star"></i> hair-color
+        <i class="fa-regular fa-face-meh"></i>  hair-color
         </span>
         <span>${data[0].appearance['hair-color']}</span>
     </li>

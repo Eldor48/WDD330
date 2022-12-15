@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,400;1,500;1,600;1,700;1,800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Share+Tech&display=swap');
 :root{
-    --poppins-font: 'Poppins', sans-serif;
-    --dark-color: #002d81;
+    --poppins-font: 'Fira Code', monospace;
+    --dark-color: #002d8180;
     --red-color: #000;
     --light-color: #fff;
-    --grey-color: #1982C4;
+    --grey-color: #56ade4;
     --yellow-color: #fff;
 }
 *{
@@ -16,6 +16,7 @@
 }
 html{
     font-size: 10px;
+    color: white;
 }
 body{
     font-size: 1.7rem;
@@ -76,6 +77,7 @@ img{
 }
 .app-header-title span{
     color: var(--red-color);
+    font-family: var(--poppins-font);
 }
 .app-header-search{
     border: 2px solid var(--grey-color);
@@ -221,6 +223,7 @@ img{
 /* powerstats */
 .powerstats{
     display: none;
+    color: white !important;
 }
 .powerstats li{
     display: -webkit-box;
